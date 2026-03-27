@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Nic Roberts-Huntley",
+    "initials": "NR",
+    "role": "Co-Founder & CEO",
+    "description": "Oxford-trained surgeon turned DeFi builder. Nic leads the overall vision and strategy of Concrete, bringing institutional-grade discipline to on-chain finance.",
+    "avatar": "https://images.cryptorank.io/persons/nic_roberts_huntley1750937683155.png",
+    "gradient": "135deg, #4ade80, #22d3ee",
+    "socials": { "x": "albusdumbledapp", "xUrl": "https://x.com/albusdumbledapp" },
+    "activity": ["Led $9.5M Polychain round", "Keynoted ETH conferences", "Shipped Concrete Earn V2", "Expanded to Solana via Glow"],
+    "whyFollow": "Nic shares raw founder insights, protocol updates and big-picture DeFi thinking. If you want to understand where Concrete is headed, follow the CEO.",
+    "whatTheyDo": "Nic sets the overall direction for Blueprint Finance and Concrete. He manages investor relations, leads fundraising, and represents the protocol publicly. As a former Oxford surgeon and Point72 VP, he brings a unique cross-disciplinary lens to DeFi infrastructure."
+  },
+  {
+    "id": 2,
+    "name": "Dillon Liang",
+    "initials": "DL",
+    "role": "Co-Founder",
+    "description": "Co-builder of the Concrete ecosystem working across product, strategy, and ecosystem growth — helping shape how Concrete expands across chains and partners.",
+    "avatar": "https://images.cryptorank.io/persons/dillon_liang1750937892650.png",
+    "gradient": "135deg, #a78bfa, #ec4899",
+    "socials": { "x": "dill_sl", "xUrl": "https://x.com/dill_sl" },
+    "activity": ["Announced Polychain raise", "Led Concrete Earn V2 rollout", "Coordinated Glow x Concrete", "Expanded protocol partnerships"],
+    "whyFollow": "Dillon posts detailed threads on product milestones and DeFi strategy. One of the most active builders on CT.",
+    "whatTheyDo": "Dillon co-leads Blueprint Finance alongside Nic, owning product direction and go-to-market strategy. He's been instrumental in growing Concrete from zero to $650M+ in deposits and coordinating the multi-chain expansion with Glow on Solana."
+  },
+  {
+    "id": 3,
+    "name": "Toji",
+    "initials": "TJ",
+    "role": "Head of Marketing",
+    "description": "Drives Concrete's brand presence, community growth, and marketing strategy across social, events, and ecosystem partnerships.",
+    "avatar": "https://images.cryptorank.io/persons/toji1750938778549.png",
+    "gradient": "135deg, #f472b6, #818cf8",
+    "socials": { "x": "crypttoji", "xUrl": "https://x.com/crypttoji" },
+    "activity": ["Led Concrete brand refresh", "Grew X to 138K followers", "Ran pre-deposit campaigns", "Coordinated ETH event presence"],
+    "whyFollow": "Toji is behind Concrete's voice on social — follow them to catch every major announcement, campaign, and community initiative first.",
+    "whatTheyDo": "Toji leads all marketing and communications for Concrete. From Twitter/X strategy to IRL event presence, they shape how the protocol is perceived externally."
+  },
+  {
+    "id": 4,
+    "name": "Gustavo Silva",
+    "initials": "GS",
+    "role": "Engineering Manager",
+    "description": "Leads engineering operations at Blueprint Finance. Oversees smart contract delivery, engineering velocity, and technical hiring.",
+    "avatar": "/team/gustavo.png",
+    "gradient": "135deg, #34d399, #06b6d4",
+    "socials": { "x": "GustavoRSSilva", "xUrl": "https://x.com/GustavoRSSilva" },
+    "activity": ["Joined from ConsenSys", "Led smart contract team", "Scaled engineering org", "Managed audit pipelines"],
+    "whyFollow": "Follow Gustavo for technical insights on how institutional DeFi infrastructure gets built and shipped.",
+    "whatTheyDo": "Gustavo manages Blueprint Finance's engineering team, owning release management, smart contract delivery, and cross-team technical coordination. He joined from ConsenSys bringing deep Web3 engineering experience."
+  },
+  {
+    "id": 5,
+    "name": "Luke H",
+    "initials": "LH",
+    "role": "Chief Growth Officer",
+    "description": "Former EigenLayer. Luke leads all growth strategy at Blueprint Finance — from user acquisition to institutional partnerships and protocol adoption.",
+    "avatar": "/team/luke.png",
+    "gradient": "135deg, #60a5fa, #818cf8",
+    "socials": { "x": "blueprintluke", "xUrl": "https://x.com/blueprintluke" },
+    "activity": ["Joined from EigenLayer", "Led Binance Wallet integration", "Drove $650M+ TVL growth", "Scaled institutional pipeline"],
+    "whyFollow": "Luke is the person shaping Concrete's growth story — from integrations to campaigns to institutional BD.",
+    "whatTheyDo": "Luke owns the full growth function at Blueprint Finance. He came from EigenLayer and is behind major milestones including the Binance Wallet integration and the protocol's growth to $650M+ in TVL."
+  },
+  {
+    "id": 6,
+    "name": "Depoche",
+    "initials": "DP",
+    "role": "Lead QA",
+    "description": "Leads quality assurance at Concrete, ensuring the protocol ships reliably and securely across every release.",
+    "avatar": "/team/depoche.png",
+    "gradient": "135deg, #fbbf24, #f59e0b",
+    "socials": { "x": "andonpv", "xUrl": "https://x.com/andonpv" },
+    "activity": ["Led QA on vault V2", "Managed testnet cycles", "Coordinated audit prep", "Shipped mainnet release checks"],
+    "whyFollow": "If you care about how a DeFi protocol ships safely, Depoche is worth following for the QA and testing perspective.",
+    "whatTheyDo": "Depoche runs the QA function at Concrete, managing test coverage, testnet cycles, and pre-mainnet checklists. They work closely with engineering to ensure every release meets the protocol's high security standards."
+  }
+]
