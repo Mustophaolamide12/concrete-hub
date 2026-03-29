@@ -16,6 +16,20 @@ const topContributors = [
   { initials: "TO", name: "Tommy",          text: "Ranked number 4 in the whole discord",         gradient: "135deg, #ec4899, #a78bfa" },
 ];
 
+const moaiList = [
+  { initials: "OX", name: "Oxeniac",      gradient: "135deg, #4ade80, #22d3ee" },
+  { initials: "CS", name: "Chris Setra",  gradient: "135deg, #a78bfa, #ec4899" },
+  { initials: "RG", name: "Rage",         gradient: "135deg, #f472b6, #818cf8" },
+  { initials: "MO", name: "Morteza",      gradient: "135deg, #fbbf24, #f59e0b" },
+  { initials: "JT", name: "Jtn",          gradient: "135deg, #34d399, #06b6d4" },
+  { initials: "ET", name: "Ethan",        gradient: "135deg, #60a5fa, #818cf8" },
+  { initials: "SU", name: "Suryah",       gradient: "135deg, #ec4899, #fbbf24" },
+  { initials: "KI", name: "Kira",         gradient: "135deg, #818cf8, #34d399" },
+  { initials: "CA", name: "Cipher Atlas", gradient: "135deg, #22d3ee, #4ade80" },
+  { initials: "NO", name: "Nomi",         gradient: "135deg, #f472b6, #fbbf24" },
+  { initials: "MG", name: "Mongral",      gradient: "135deg, #a78bfa, #60a5fa" },
+];
+
 const wtt = [
   {
     icon: "📣", label: "Marketing", desc: "Brand, social & campaigns",
@@ -66,7 +80,13 @@ function Row({ item, accent }: { item: { initials: string; name: string; text: s
 }
 
 export default function ActivitySection() {
-  const [tab, setTab] = useState<"most" | "top">("most");
+  const [tab, setTab] = useState<"most" | "top" | "moai">("most");
+
+  const tabConfig = [
+    { key: "most" as const, label: "🔥 Most Active" },
+    { key: "top"  as const, label: "⭐ Top Contributors" },
+    { key: "moai" as const, label: "🗿 Moai List" },
+  ];
 
   return (
     <>
@@ -102,21 +122,35 @@ export default function ActivitySection() {
           <p className="mb-6 max-w-md text-sm font-light leading-relaxed text-[#a3a3a3]">The community members showing up consistently and making an impact.</p>
 
           {/* Tabs */}
-          <div className="flex border-b border-[#2a2a2a]">
-            {(["most", "top"] as const).map(t => (
-              <button key={t} onClick={() => setTab(t)}
-                className={`border-b-2 px-5 py-2.5 font-mono text-[9px] font-bold uppercase tracking-widest transition-all ${tab === t ? "border-[#4ade80] text-[#4ade80]" : "border-transparent text-[#a3a3a3] hover:text-[#e5e5e5]"}`}>
-                {t === "most" ? "🔥 Most Active" : "⭐ Top Contributors"}
+          <div className="flex flex-wrap border-b border-[#2a2a2a]">
+            {tabConfig.map(t => (
+              <button key={t.key} onClick={() => setTab(t.key)}
+                className={`border-b-2 px-5 py-2.5 font-mono text-[9px] font-bold uppercase tracking-widest transition-all ${tab === t.key ? "border-[#4ade80] text-[#4ade80]" : "border-transparent text-[#a3a3a3] hover:text-[#e5e5e5]"}`}>
+                {t.label}
               </button>
             ))}
           </div>
 
           <div className="max-w-xl border border-[#2a2a2a] border-t-0 bg-[#0d0d0d]">
             <div className="border-b border-[#2a2a2a] px-5 py-2.5 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-[#a3a3a3]">
-              {tab === "most" ? "🔥 Most Active" : "⭐ Top Contributors"}
+              {tabConfig.find(t => t.key === tab)?.label}
             </div>
-            {(tab === "most" ? mostActive : topContributors).map(item => (
+
+            {/* Most Active & Top Contributors — name + description rows */}
+            {tab !== "moai" && (tab === "most" ? mostActive : topContributors).map(item => (
               <Row key={item.name} item={item} accent={tab === "most" ? "#4ade80" : "#f59e0b"} />
+            ))}
+
+            {/* Moai List — numbered, name only */}
+            {tab === "moai" && moaiList.map((item, i) => (
+              <div key={item.name + i} className="flex items-center gap-3 border-b border-[#1a1a1a] px-5 py-3 last:border-none">
+                <span className="w-5 flex-shrink-0 font-mono text-[9px] font-bold text-[#737373]">{i + 1}.</span>
+                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full font-mono text-[8px] font-bold text-black" style={{ background: `linear-gradient(${item.gradient})` }}>
+                  {item.initials}
+                </div>
+                <strong className="font-mono text-[10px] font-bold uppercase tracking-wider text-[#e5e5e5]">{item.name}</strong>
+                <div className="ml-auto h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#a78bfa]" />
+              </div>
             ))}
           </div>
         </div>
