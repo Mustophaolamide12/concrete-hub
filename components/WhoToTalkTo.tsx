@@ -28,6 +28,7 @@ const moaiList = [
   { initials: "CA", name: "Cipher Atlas", gradient: "135deg, #22d3ee, #4ade80" },
   { initials: "NO", name: "Nomi",         gradient: "135deg, #f472b6, #fbbf24" },
   { initials: "MG", name: "Mongral",      gradient: "135deg, #a78bfa, #60a5fa" },
+  { initials: "KC", name: "KCT",          gradient: "135deg, #f472b6, #ec4899" },
 ];
 
 const wtt = [
@@ -136,12 +137,12 @@ export default function ActivitySection() {
               {tabConfig.find(t => t.key === tab)?.label}
             </div>
 
-            {/* Most Active & Top Contributors — name + description rows */}
+            {/* Most Active & Top Contributors */}
             {tab !== "moai" && (tab === "most" ? mostActive : topContributors).map(item => (
               <Row key={item.name} item={item} accent={tab === "most" ? "#4ade80" : "#f59e0b"} />
             ))}
 
-            {/* Moai List — numbered, name only */}
+            {/* Moai List — numbered */}
             {tab === "moai" && moaiList.map((item, i) => (
               <div key={item.name + i} className="flex items-center gap-3 border-b border-[#1a1a1a] px-5 py-3 last:border-none">
                 <span className="w-5 flex-shrink-0 font-mono text-[9px] font-bold text-[#737373]">{i + 1}.</span>
