@@ -1,5 +1,11 @@
 const recaps = [
   {
+    week: "Apr 3, 2026",
+    title: "Concrete and Euler Partner to Build Institutional-Grade Lending Markets on Modular DeFi Infra.",
+    summary: "Concrete and Euler join forces to bring institutional-grade lending infrastructure to modular DeFi — combining Concrete's vault system with Euler's proven lending primitives.",
+    link: "https://x.com/concretexyz/status/2040029803940614270?s=46",
+  },
+  {
     week: "Apr 1, 2026",
     title: "The Concrete x @BinanceWallet Campaign is coming to a close.",
     summary: "The landmark Binance Wallet campaign wraps up. A look back at the numbers, the community participation, and what comes next for Concrete's vault ecosystem.",
@@ -26,7 +32,7 @@ export default function Recaps() {
         <p className="mb-1.5 font-mono text-[9px] font-bold uppercase tracking-[0.14em] text-[#4ade80]">↓ Updates</p>
         <h2 className="mb-2 font-mono text-[clamp(1.2rem,2.8vw,1.85rem)] font-bold tracking-[-0.02em] text-white">Weekly Recaps</h2>
         <p className="mb-7 max-w-md text-sm font-light leading-relaxed text-[#a3a3a3]">Missed the week? We&apos;ve got you covered.</p>
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {recaps.map((r, i) => (
             <div key={i} className="border border-[#2a2a2a] bg-[#0d0d0d] p-5 transition-all duration-200 hover:border-[#4ade80]/40 hover:bg-[#111]">
               <p className="mb-2 font-mono text-[8px] font-bold uppercase tracking-[0.14em] text-[#4ade80]">{r.week}</p>
