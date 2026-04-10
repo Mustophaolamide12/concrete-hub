@@ -1,5 +1,11 @@
 const recaps = [
   {
+    week: "Apr 9, 2026",
+    title: "Why Institutions Still Don't Trust DeFi — And It's Not What You Think.",
+    summary: "Regulation, UX, and volatility get the blame — but the real reason institutions avoid DeFi runs deeper. Concrete breaks down the actual barrier and why its infrastructure is built to address it at the root.",
+    link: "https://x.com/concretexyz/status/2042286051612340624?s=46",
+  },
+  {
     week: "Apr 3, 2026",
     title: "Concrete and Euler Partner to Build Institutional-Grade Lending Markets on Modular DeFi Infra.",
     summary: "Concrete and Euler join forces to bring institutional-grade lending infrastructure to modular DeFi — combining Concrete's vault system with Euler's proven lending primitives.",
@@ -16,12 +22,6 @@ const recaps = [
     title: "DeFi made earning feel like a job. The problem isn't yield — it's how you access it.",
     summary: "Chasing APYs, moving funds, timing everything — and most people still underperform. Concrete's automated vaults exist to solve exactly this.",
     link: "https://x.com/concretexyz/status/2038990400308875737?s=46",
-  },
-  {
-    week: "Mar 25, 2026",
-    title: "The Clarity Act just killed passive stablecoin yield. Here is why Concrete Vaults are the answer.",
-    summary: "With the Clarity Act reshaping the stablecoin landscape, Concrete Vaults offer a compliant, institutional-grade path to stablecoin yield that still works.",
-    link: "https://x.com/concretexyz/status/2036846615495852385?s=46",
   },
 ];
 
