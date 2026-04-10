@@ -28,6 +28,7 @@ const moaiList = [
   { initials: "CA", name: "Cipher Atlas", gradient: "135deg, #22d3ee, #4ade80" },
   { initials: "NO", name: "Nomi",         gradient: "135deg, #f472b6, #fbbf24" },
   { initials: "MG", name: "Mongral",      gradient: "135deg, #a78bfa, #60a5fa" },
+  { initials: "KCT", name: "KCT",         gradient: "135deg, #a78bfa, #60a5fa" },
   { initials: "VK", name: "Vajira Kumar", gradient: "135deg, #f472b6, #ec4899" },
 ];
 
