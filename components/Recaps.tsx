@@ -1,27 +1,27 @@
 const recaps = [
   {
+    week: "Apr 15, 2026",
+    title: "Yield isn't discovered. It's Engineered.",
+    summary: "Yield in DeFi does not appear naturally—it is deliberately designed through protocols, incentives, and token mechanics. What looks like “organic returns” is often the result of structured systems that redistribute value, meaning users must understand the underlying mechanisms rather than assume yield is inherently sustainable.",
+    link: "https://x.com/concretexyz/status/2040029803940614270?s=46",
+  },
+  {
+    week: "Apr 15, 2026",
+    title: "The first phase of DeFi optimized for access. Anyone could deploy capital. Anyone could earn yield..",
+    summary: "Early DeFi focused on accessibility, lowering barriers so anyone with capital could participate and earn returns. This democratization drove rapid adoption, but it prioritized ease of entry over transparency, leaving many users engaging with yield opportunities without fully understanding the risks or sources of returns.",
+    link: "https://x.com/concretexyz/status/2044243013308645800?s=46",
+  },
+  {
+    week: "Apr 14, 2026",
+    title: "DeFi made earning feel like a job. The problem isn't yield — it's how you access it.",
+    summary: "The CEO of Concrete and the CEO of Fypher Labs appeared together on Maeil Economy TV, highlighting their collaboration and sharing insights on innovation at the intersection of blockchain, infrastructure, and financial systems, while showcasing their projects to a broader audience.",
+    link: "https://x.com/concretexyz/status/2044046825867428103?s=46",
+  },
+  {
     week: "Apr 9, 2026",
     title: "Why Institutions Still Don't Trust DeFi — And It's Not What You Think.",
     summary: "Regulation, UX, and volatility get the blame — but the real reason institutions avoid DeFi runs deeper. Concrete breaks down the actual barrier and why its infrastructure is built to address it at the root.",
     link: "https://x.com/concretexyz/status/2042286051612340624?s=46",
-  },
-  {
-    week: "Apr 3, 2026",
-    title: "Concrete and Euler Partner to Build Institutional-Grade Lending Markets on Modular DeFi Infra.",
-    summary: "Concrete and Euler join forces to bring institutional-grade lending infrastructure to modular DeFi — combining Concrete's vault system with Euler's proven lending primitives.",
-    link: "https://x.com/concretexyz/status/2040029803940614270?s=46",
-  },
-  {
-    week: "Apr 1, 2026",
-    title: "The Concrete x @BinanceWallet Campaign is coming to a close.",
-    summary: "The landmark Binance Wallet campaign wraps up. A look back at the numbers, the community participation, and what comes next for Concrete's vault ecosystem.",
-    link: "https://x.com/concretexyz/status/2039309995934720124?s=46",
-  },
-  {
-    week: "Mar 31, 2026",
-    title: "DeFi made earning feel like a job. The problem isn't yield — it's how you access it.",
-    summary: "Chasing APYs, moving funds, timing everything — and most people still underperform. Concrete's automated vaults exist to solve exactly this.",
-    link: "https://x.com/concretexyz/status/2038990400308875737?s=46",
   },
 ];
 

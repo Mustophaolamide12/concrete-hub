@@ -30,6 +30,7 @@ const moaiList = [
   { initials: "MG", name: "Mongral",      gradient: "135deg, #a78bfa, #60a5fa" },
   { initials: "KCT", name: "KCT",         gradient: "135deg, #a78bfa, #60a5fa" },
   { initials: "VK", name: "Vajira Kumar", gradient: "135deg, #f472b6, #ec4899" },
+  { initials: "NM", name: "Nitman", gradient: "135deg, #f472b6, #ec4899" },
 ];
 
 const wtt = [
